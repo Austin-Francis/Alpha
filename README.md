@@ -1,9 +1,12 @@
-.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
-        color: black;
-        background-color: #fcd900;
-    }
+$(document).ready(function () 
+{
+    // somehow first navpill will not look active on page load (although it is...)
+    $('.navpill.active').trigger('click');
+});
 
-        .nav-pills > li.active > a:hover {
-            background-color: #efcb00;
-            color:black;
-        }
+<li class="nav-item active"><a class="nav-link active" ....
+                               
+$(".nav-tabs li a").click(function(){
+  $(".nav-tabs li a").removeClass("active");
+  $(this).addClass("active");
+});
