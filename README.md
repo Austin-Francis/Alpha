@@ -1,16 +1,9 @@
-<ul class="nav nav-tabs">
+<ul class="nav nav-pills nav-fill">
   <li class="nav-item">
     <a class="nav-link active" href="#">Active</a>
   </li>
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Action</a>
-      <a class="dropdown-item" href="#">Another action</a>
-      <a class="dropdown-item" href="#">Something else here</a>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">Separated link</a>
-    </div>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Longer nav link</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">Link</a>
